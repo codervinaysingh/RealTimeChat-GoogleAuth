@@ -1,8 +1,40 @@
 ﻿@{
     ViewData["Title"] = "Chat Page";
 }
+<style>
+    .fa-stack[data-count]:after {
+        right: 0%;
+        top: 1%;
+        content: attr(data-count);
+        font-size: 50%;
+        padding: .6em;
+        border-radius: 50%;
+        line-height: .75em;
+        color: white;
+        background: rgba(255,0,0,.85);
+        text-align: center;
+        min-width: 2em;
+        font-weight: bold;
+      
+    }
+    .chat-box{
+        min-height:300px;
+        display: inline-block;
+        vertical-align: bottom;
+    }
+    .bottom-message{
+        width:80%;
+         vertical-align: bottom;
+       bottom:0
+    }
+    .message-item{
+        margin: 0;
+    }
+   
+    
+</style>
 <div class="container">
-    <div class="row">
+   @* <div class="row">
         &nbsp;
     </div>
     <div class="row">
@@ -26,22 +58,83 @@
     <div class="row">&nbsp;</div>
     <div class="row">
         <div class="col-2">
-           
         </div>
         <div class="col-6">
             <input type="button" id="btn_send" value="Send Message" />
         </div>
+    </div>*@
+    <div class="row">
+        <div class="col-12">
+            <br />
         </div>
-        <div class="row">
-            <div class="col-12">
-                <br />
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div id="user_list">
+                <div class="form-control">
+                    <h2>Users List</h2>
+                    <div id="user_list">
+                    <div class="form-control m-2" >
+                        <div>
+                            <h6>vinay</h6>
+                            <span>You have a new message</span>
+                        </div>
+                    </div>
+                    <div class="form-control m-2">
+                        <div>
+                            <h6>vinay</h6>
+                            <span>You have a new message</span>
+                            <span class="fa-stack fa-3x" data-count="28">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-control m-2">
+                        <div>
+                            <h6>vinay</h6>
+                            <span>You have a new message</span>
+                        </div>
+                    </div>
+                    <div class="form-control m-2">
+                        <div>
+                            <h6>vinay</h6>
+                            <span>You have a new message</span>
+                        </div>
+                    </div>
+                    <div class="form-control m-2">
+                        <div>
+                            <h6>vinay</h6>
+                            <span>You have a new message</span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-         <div class="row">
-            <div class="col-6">
-                <ul id="message_list"></ul>
+        <div class="col-2"></div>
+        <div class="col-6">
+            <div class="form-control">
+                 <h2>Chat With <label id="txt_userId">Vinay</label></h2>
+                 <div class="form-control chat-box ">
+                     <div class="message-item">
+            <ul id="message_list">               
+            </ul> 
+            <ul id="message_list_New">               
+            </ul>
+            </div>
+          
+        </div>
+          <div class="row bottom-message">
+                <div class="col-10">
+                <input type="text" class="" id="txt_message" />
+                </div>
+               <div class="col-2">
+                 <input type="button" id="btn_send" value="Send Message" />
+                 </div>
             </div>
         </div>
+        </div>
+    </div>
 </div>
 <script src="~/js/signalr/dist/browser/signalr.js"></script>
 <script src="~/js/Clienthub.js"></script>

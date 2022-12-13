@@ -32,3 +32,15 @@ D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\
 D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\obj\Debug\net6.0\GoogleAuthentication.pdb
 D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\obj\Debug\net6.0\GoogleAuthentication.genruntimeconfig.cache
 D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\obj\Debug\net6.0\ref\GoogleAuthentication.dll
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\obj\Debug\net6.0\staticwebassets\msbuild.GoogleAuthentication.Microsoft.AspNetCore.StaticWebAssets.props
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\obj\Debug\net6.0\staticwebassets\msbuild.build.GoogleAuthentication.props
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.GoogleAuthentication.props
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.GoogleAuthentication.props
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\obj\Debug\net6.0\staticwebassets.pack.json
+D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\bin\Debug\net6.0\RazorPay Core.dll

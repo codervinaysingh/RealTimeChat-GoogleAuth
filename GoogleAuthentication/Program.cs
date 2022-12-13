@@ -1,11 +1,17 @@
-using Microsoft.AspNetCore.Authentication.Cookies;
 using GoogleAuthentication.Hubs;
+using GoogleAuthentication.Models.ChatHistory;
+using GoogleAuthentication.Models.Helper;
+using GoogleAuthentication.Models.UserMaster;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR();
+builder.Services.AddScoped<IHelper, Helper>();
+builder.Services.AddScoped<IUserMaster, DapperUserMaster>();
+builder.Services.AddScoped<IChatHistory, DapperChatHistory>();
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 // Goolge Login 
 builder.Services.AddAuthentication(options =>
@@ -13,8 +19,8 @@ builder.Services.AddAuthentication(options =>
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 }).AddCookie(options =>
 {
-    options.LoginPath ="/home" ;
-   // options.LoginPath = "/account/facebook-login";
+    options.LoginPath = "/home";
+    // options.LoginPath = "/account/facebook-login";
 }).AddGoogle(options =>
 {
     options.ClientId = builder.Configuration["GoogleApi"];
@@ -22,7 +28,7 @@ builder.Services.AddAuthentication(options =>
 
 }).AddFacebook(options =>
 {
-    options.ClientId = builder.Configuration["FacebookAppId"] ;
+    options.ClientId = builder.Configuration["FacebookAppId"];
     options.ClientSecret = builder.Configuration["FacebookAppsecret"];
 });
 builder.Services.AddSession(options =>

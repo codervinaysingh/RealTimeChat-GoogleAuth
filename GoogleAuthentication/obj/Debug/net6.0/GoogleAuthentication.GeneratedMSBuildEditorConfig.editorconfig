@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GoogleAuthentication
 build_property.RootNamespace = GoogleAuthentication
@@ -33,6 +34,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Capture.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxDYXB0dXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Fail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxGYWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/SubmitPayment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxTdWJtaXRQYXltZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Shared/Error.cshtml]

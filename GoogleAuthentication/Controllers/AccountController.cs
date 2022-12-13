@@ -42,7 +42,9 @@ namespace GoogleAuthentication.Controllers
 
             var response= result.Principal.Claims.ToList();
             userId = response[0].Value;
-            HttpContext.Session.SetString("UserId", userId);
+           HttpContext.Session.SetString("UserId", userId);
+           HttpContext.Session.SetString("UserName", response[4].Value);
+           
             if (response.Count>1)
             {
                 // return Redirect(Request.Headers["Referer"].ToString());
