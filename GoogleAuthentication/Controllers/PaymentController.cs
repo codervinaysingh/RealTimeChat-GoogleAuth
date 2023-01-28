@@ -12,8 +12,8 @@ namespace GoogleAuthentication.Controllers
         private readonly string _secret = "d3DCDX5gwavbEoYABlltSglz";
         public IActionResult Index()
         {
-            FetchAllPayment();
-            var model = new PaymentModel() { Amount = 1, Name = "Vinay Singh", Mobile = "8957884575", Email = "vinaysingh.ct@gmail.com" };
+            //FetchAllPayment();
+             var model = new PaymentModel() { Amount = 1, Name = "Vinay Singh", Mobile = "8957884575", Email = "vinaysingh.ct@gmail.com" };
             return View(model);
         }
         [HttpPost]
@@ -102,6 +102,7 @@ namespace GoogleAuthentication.Controllers
             var text = orderId + "|" + paymentId;
             var secret = _secret;
             var genratedSignature = CalculateSHA256(text, secret);
+
             if (genratedSignature == razorPaySignature)
             {
                 return true;
@@ -152,9 +153,9 @@ namespace GoogleAuthentication.Controllers
         public IActionResult FetchAllPayment()
         {
             RazorpayClient client = new RazorpayClient(_key, _secret);
-            Razorpay.Api.Payment payment = client.Payment.Fetch(null);
-            string str = "wqe4";
-            return Content(str);
+           List<Razorpay.Api.Payment> payment = client.Payment.All();
+            var res = Json(new { payment });
+            return (res) ;
         }
 
     }

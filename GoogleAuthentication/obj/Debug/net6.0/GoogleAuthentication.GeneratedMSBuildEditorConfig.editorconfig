@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GoogleAuthentication
 build_property.RootNamespace = GoogleAuthentication
-build_property.ProjectDir = D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\
+build_property.ProjectDir = E:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication
+build_property.MSBuildProjectDirectory = E:\vinaysingh\MVC PROJECT\Google Auth\GoogleAuthentication\GoogleAuthentication
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Chat/Index.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Chat/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Chat/ShowOnlineUser.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Chat/ShowOnlineUser.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hhdFxTaG93T25saW5lVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Home/Index.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Home/Login.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Home/Privacy.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Capture.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Capture.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxDYXB0dXJlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Fail.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Fail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxGYWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Index.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/SubmitPayment.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/SubmitPayment.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxTdWJtaXRQYXltZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Success.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Payment/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudFxTdWNjZXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Shared/Error.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/_ViewImports.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/_ViewStart.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Shared/_Layout.cshtml]
+[E:/vinaysingh/MVC PROJECT/Google Auth/GoogleAuthentication/GoogleAuthentication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-xpc1is2oxn

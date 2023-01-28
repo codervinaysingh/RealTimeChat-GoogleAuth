@@ -30,7 +30,7 @@
         "image": "@Model.ImagelogUr1",
         "order_id": "@Model.OrderId", //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
         "handler": function (response) {
-            console.log(response)
+            console.log("res",response)
             //alert(response.razorpay_payment_id);
             //alert(response.razorpay_order_id);
             //alert(response.razorpay_signature)
@@ -38,7 +38,8 @@
             $('#paymentid').val(response.razorpay_payment_id);
             $('#signature').val(response.razorpay_signature);
             $('#paymentstatus').val('Success');
-            $('#btnAfterPayment').click();
+
+           // $('#btnAfterPayment').click();
         },
            // "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
                 "prefill": {
@@ -48,7 +49,7 @@
         },
         "notes": paymentNotes,
         "theme": {
-            "color": "#3399cc"
+            "color": "red"
         }
     };
 

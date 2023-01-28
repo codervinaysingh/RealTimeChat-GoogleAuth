@@ -71,8 +71,7 @@ namespace GoogleAuthentication.Models.UserMaster
             {
                 SqlParameter[] param =
                {
-                    new SqlParameter("opCode" ,3),
-                   
+                    new SqlParameter("opCode" ,3),       
                     new SqlParameter("userName",UserName)
                 };
                 var dt = _dbHelper.ExcuteByProcedure("sp_SaveUpadateConnection", param);

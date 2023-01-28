@@ -6286,19 +6286,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\CT-106\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\GoogleAuthentication.csproj",
+      "projectUniqueName": "E:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\GoogleAuthentication.csproj",
       "projectName": "GoogleAuthentication",
-      "projectPath": "D:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\GoogleAuthentication.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\obj\\",
+      "projectPath": "E:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\GoogleAuthentication.csproj",
+      "packagesPath": "C:\\Users\\CT-106\\.nuget\\packages\\",
+      "outputPath": "E:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\CT-106\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6376,7 +6376,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },
