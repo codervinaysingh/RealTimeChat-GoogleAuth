@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\GoogleAuthentication.bundle.scp.css"
     },
     {
+      "Id": "E:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\wwwroot\\Upload\\era.jpg",
+      "PackagePath": "staticwebassets\\Upload\\era.jpg"
+    },
+    {
       "Id": "E:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
     },

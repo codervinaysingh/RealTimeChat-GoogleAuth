@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "T2jhLpw7LyycEqj903s570jo9pUKMMgnruIC17YUlZI=",
+  "Hash": "1KHie8I9no0bghTBwQPOpuAJe4KMu3jhKOaR8fgfB7o=",
   "Source": "GoogleAuthentication",
   "BasePath": "_content/GoogleAuthentication",
   "Mode": "Default",
@@ -4384,6 +4384,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "E:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\wwwroot\\Upload\\era.jpg",
+      "SourceId": "GoogleAuthentication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\vinaysingh\\MVC PROJECT\\Google Auth\\GoogleAuthentication\\GoogleAuthentication\\wwwroot\\",
+      "BasePath": "_content/GoogleAuthentication",
+      "RelativePath": "Upload/era.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\era.jpg"
     }
   ]
 }

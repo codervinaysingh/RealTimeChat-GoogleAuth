@@ -58,9 +58,11 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+app.UseEndpoints(e =>
+         e.MapControllerRoute(name: "default",
+          pattern: "{controller=Home}/{action=Index}/{id?}")
+
+);
 
 app.MapHub<ConectedHub>("/ConectedHub");
 app.Run();

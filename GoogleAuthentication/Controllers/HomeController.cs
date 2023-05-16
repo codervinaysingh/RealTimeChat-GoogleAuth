@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.IO;
 
 namespace GoogleAuthentication.Controllers
 {
@@ -33,6 +34,7 @@ namespace GoogleAuthentication.Controllers
 
         public IActionResult Privacy()
         {
+            
             return View();
         }
         [AllowAnonymous]
